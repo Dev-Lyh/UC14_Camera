@@ -70,7 +70,7 @@ export default class List extends Component {
   render() {
     return (
         <ScrollView style={{ backgroundColor: '#282828', paddingHorizontal: 20 }}>
-          <Text style={styles.title}>UC14 - Camera e Galeria</Text>
+          <Text style={styles.title}>UC11 - Camera e Galeria</Text>
           {this.state.filePath === '' ? (
             <View style={styles.imageEmptyBox}>
               <Text style={styles.noneImage}>Nenhuma imagem selecionada</Text>
